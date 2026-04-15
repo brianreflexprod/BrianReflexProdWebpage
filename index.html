@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrianReflexProd | Video Editor & Post-producer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="profile-header">
+                <img src="tu-foto.jpg" alt="Professional Photo" class="profile-pic">
+                <span class="logo">BrianReflexProd</span>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">
+                    <span class="lang-en">Home</span><span class="lang-es">Inicio</span>
+                </a></li>
+                <li><a href="#proyectos">
+                    <span class="lang-en">Projects</span><span class="lang-es">Proyectos</span>
+                </a></li>
+                <li><a href="#sobre-mi">
+                    <span class="lang-en">About</span><span class="lang-es">Sobre mí</span>
+                </a></li>
+                <li><a href="#contacto">
+                    <span class="lang-en">Contact</span><span class="lang-es">Contacto</span>
+                </a></li>
+                <li><button id="language-toggle" class="lang-btn">EN / ES</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1 class="lang-en">Video Editor & Post-producer</h1>
+            <h1 class="lang-es">Editor de Video & Post-productor</h1>
+            
+            <p class="lang-en">Transforming ideas into impactful visual stories.</p>
+            <p class="lang-es">Transformando ideas en historias visuales impactantes.</p>
+            
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/1183252888" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="proyectos" class="portfolio">
+            <h2 class="lang-en">Featured Projects</h2>
+            <h2 class="lang-es">Mis Proyectos</h2>
+            
+            <div class="grid">
+                <div class="card open-video" data-video="https://player.vimeo.com/video/1183427004">
+                    <div class="card-video">
+                        <img src="thumbnail Salariocol.jpg" alt="Project 1">
+                        <div class="overlay-play">▶</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Comercial | SalarioCol App</h3>
+                        <p class="lang-en">Production & Post-Production</p>
+                        <p class="lang-es">Producción y Post-Producción</p>
+                    </div>
+                </div>
+
+                <div class="card open-video" data-video="https://www.youtube.com/embed/4u5xiUH7uHY?si=PhRZkV5ZVw81deJV">
+                    <div class="card-video">
+                        <img src="Extravagantemente thumbnail.jpg" alt="Project 2">
+                        <div class="overlay-play">▶</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Video-Podcast | Extravagantemente</h3>
+                        <p class="lang-en">Production & Post-Production</p>
+                        <p class="lang-es">Producción y Post-Producción</p>
+                    </div>
+                </div>
+
+                <div class="card open-video" data-video="https://player.vimeo.com/video/1183360286">
+                    <div class="card-video">
+                        <img src="thumbnail tonight.jpg" alt="Project 3">
+                        <div class="overlay-play">▶</div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Music Video | "Tonight" - Fill Soul</h3>
+                        <p class="lang-en">Editing & Post-Production</p>
+                        <p class="lang-es">Edición y Post-Producción</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about-independent">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2 class="lang-en">Behind the Screen</h2>
+                    <h2 class="lang-es">Detrás de la pantalla</h2>
+                    
+                    <div class="lang-en">
+                        <p>Hi! I'm Brian. In a world full of visual noise, my job is to create clarity and rhythm. I specialize in taking raw footage and sculpting it until every cut has a purpose. My approach is always the same: technical excellence combined with artistic sensitivity.</p>
+                    </div>
+                    <div class="lang-es">
+                        <p>¡Hola! Soy Brian. En un mundo lleno de ruido visual, mi trabajo es crear claridad y ritmo. Me especializo en tomar material en bruto y esculpirlo hasta que cada corte tenga un propósito. Mi enfoque siempre es el mismo: calidad técnica y sensibilidad artística.</p>
+                    </div>
+                </div>
+
+                <div class="software-grid">
+                    <div class="software-item">
+                        <img src="DaVinci_Resolve_Studio.png" alt="DaVinci Resolve">
+                        <span>DaVinci Resolve</span>
+                    </div>
+                    <div class="software-item">
+                        <img src="Adobe_Premiere_Pro_CC_icon.png" alt="Premiere Pro">
+                        <span>Premiere Pro</span>
+                    </div>
+                    <div class="software-item">
+                        <img src="Adobe_After_Effects_CC_icon.png" alt="After Effects">
+                        <span>After Effects</span>
+                    </div>
+                    <div class="software-item">
+                        <div class="custom-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <span class="lang-en">Color Grading</span>
+                        <span class="lang-es">Corrección de Color</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="contact-container">
+            <h2 class="lang-en">Have a project in mind?</h2>
+            <h2 class="lang-es">¿Tienes un proyecto en mente?</h2>
+            
+            <p class="lang-en">Let's tell your story together. Send me a message!</p>
+            <p class="lang-es">Cuéntame tu idea y busquemos la mejor forma de contar tu historia.</p>
+            
+            <form id="contact-form" action="https://formspree.io/f/xyklkjey" method="POST">
+                <div class="form-group">
+                    <input type="text" name="nombre" placeholder="Name / Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <select name="servicio">
+                        <option value="edicion" class="lang-en">Video Editing</option>
+                        <option value="edicion" class="lang-es">Edición de Video</option>
+                        
+                        <option value="color" class="lang-en">Color Grading</option>
+                        <option value="color" class="lang-es">Color Grade</option>
+                        
+                        <option value="vfx" class="lang-en">Visual Effects (VFX)</option>
+                        <option value="vfx" class="lang-es">Efectos Visuales (VFX)</option>
+                        
+                        <option value="otro" class="lang-en">Other</option>
+                        <option value="otro" class="lang-es">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="mensaje" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <span class="lang-en">Send Message</span>
+                    <span class="lang-es">Enviar Mensaje</span>
+                </button>
+            </form>
+            
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/brian-tovar-rios" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/brianreflex/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.upwork.com/freelancers/~01a67c6602ac6d05de?mp_source=share" target="_blank" aria-label="Upwork">
+                    <i class="fa-brands fa-upwork"></i>
+                </a>
+                <a href="https://vimeo.com/brianreflexprod" target="_blank" aria-label="Vimeo">
+                    <i class="fa-brands fa-vimeo"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="video-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <iframe id="modal-iframe" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
